@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Travel Guide</title>
+    <style>
+      /* Define styles for the body */
+      body {
+        background-color: rgb(149, 190, 200);
+        font-family: Arial, sans-serif;
+        margin: 10;
+        padding: 10;
+      }
+      
+      /* Define styles for the header */
+      header {
+        background-color: rgb(21, 60, 85);
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      /* Define styles for the main content area */
+      main {
+        margin: 100px;
+        padding: 100px;
+        background-color: white;
+        border: 1px solid navy;
+        border-radius: 10px;
+      }
+      
+      /* Define styles for headings */
+      h1, h2, h3 {
+        color: navy;
+        font-weight: normal;
+        margin: 10;
+      }
+      h2 {
+        text-align: center;
+      }
+      /* Define styles for links */
+      a {
+        color: navy;
+        text-decoration: none;
+      }
+      
+      /* Define styles for the login form */
+      form.login {
+        background-color: lightgray;
+        padding: 20px;
+        border: 1px solid navy;
+        border-radius: 1px;
+        text-align: center;
+        /* width: 500px; */
+      }
+      
+      /* Define styles for form inputs */
+      input[type="text"], input[type="password"] {
+        padding: 10px;
+        margin-bottom: 20px;
+        width: 15%;
+        border: 1px solid navy;
+        border-radius: 10px;
+      }
+      
+      /* Define styles for the submit button */
+      input[type="submit"] {
+        background-color: navy;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+      
+      /* Define styles for the signup form */
+      form.signup {
+        background-color: lightgray;
+        padding: 20px;
+        border: 1px solid navy;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Travel Guide</h1>
+    </header>
+    <main>
+      <h2>Login</h2>
+      <form class="login" action="home.html" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br>
+        <input type="submit" value="Login">
+      </form>
+      <center>
+      <p>Not a member yet? <a href="signup.html">Sign Up</a></p>
+    </center>
+    </main>
+  </body>
+</html>
