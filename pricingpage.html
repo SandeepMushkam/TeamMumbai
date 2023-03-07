@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pricing Page</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+
+		h1 {
+			text-align: center;
+			margin: 30px 0;
+		}
+
+		h2 {
+			font-size: 24px;
+			margin: 20px 0;
+		}
+
+		p {
+			font-size: 16px;
+			margin-bottom: 10px;
+		}
+
+		ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		li {
+			margin-bottom: 5px;
+		}
+
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			max-width: 1200px;
+			margin: 0 auto;
+		}
+
+		.plan {
+			border: 2px solid #ccc;
+			border-radius: 5px;
+			box-shadow: 0 5px 10px rgba(0,0,0,.1);
+			margin: 20px;
+			padding: 20px;
+			text-align: center;
+			width: 300px;
+			transition: all .3s ease-in-out;
+		}
+
+		.plan:hover {
+			box-shadow: 0 10px 20px rgba(0,0,0,.2);
+			transform: translateY(-5px);
+		}
+
+		.free {
+			border-color: #4CAF50;
+		}
+
+		.free h2 {
+			color: #4CAF50;
+		}
+
+		.pro {
+			border-color: #2196F3;
+		}
+
+		.pro h2 {
+			color: #2196F3;
+		}
+
+		.premium {
+			border-color: #F44336;
+		}
+
+		.premium h2 {
+			color: #F44336;
+		}
+
+		.cta {
+			background-color: #4CAF50;
+			border-radius: 50px;
+			color: #fff;
+			display: inline-block;
+			font-size: 16px;
+			font-weight: bold;
+			margin-top: 20px;
+			padding: 10px 20px;
+			text-decoration: none;
+			transition: all .3s ease-in-out;
+		}
+
+		.cta:hover {
+			background-color: #2E8B57;
+			transform: scale(1.05);
+		}
+
+		.note {
+			font-size: 14px;
+			margin-top: 50px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<h1>Pricing Plans</h1>
+
+	<div class="container">
+		<div class="plan free">
+			<h2>Basic Plan</h2>
+			<p>Cost: Free</p>
+			<ul>
+				<li>Traffic congestion alerts at user set frequency</li>
+				<li>Weather condition alerts at user set frequency</li>
+                <li>10 alerts per day</li>
+                <li>Email alerts only</li>    
+                <li>Limited locations</li>    
+			</ul>
+			<a href="signup.html" class="cta">Sign Up</a>
+		</div>
+
+		<div class="plan pro">
+			<h2>Pro Plan</h2>
+			<p>Cost: $9.99/month</p>
+			<ul>
+				<li>Traffic congestion alerts at user set frequency</li>
+				<li>Weather condition alerts at user set frequency</li>
+				<li>20 alerts per day</li>
+                <li>Email and SMS alerts</li>
+                <li>Expanded location coverage</li>    
+            </ul>
+            <a href="signup.html" class="cta">Sign Up</a>
+        </div>
+    
+        <div class="plan premium">
+            <h2>Premium Plan</h2>
+            <p>Cost: $19.99/month</p>
+            <ul>
+                <li>Traffic congestion alerts at user set frequency</li>
+				<li>Weather condition alerts at user set frequency</li>
+                <li>Unlimited alerts</li>
+                <li>Email, SMS, and push notifications</li>
+                <li>Full location coverage</li>
+                <li>Customizable alert settings</li>
+            </ul>
+            <a href="signup.html" class="cta">Sign Up</a>
+        </div>
+    </div>
+    
+    <p class="note">*All plans come with a 30-day money-back guarantee.</p>
+</body>
+</html>
+    
